@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0A18C86BAAB85F0D05FA2A /* Pods_Zeus_Chronicles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4F16D233B6AD4D53487BE6 /* Pods_Zeus_Chronicles.framework */; };
+		52B049B12B9912F900893D8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049B02B9912F900893D8E /* AppDelegate.swift */; };
+		52B049B72B9912F900893D8E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049B62B9912F900893D8E /* GameScene.swift */; };
+		52B049B92B9912F900893D8E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049B82B9912F900893D8E /* GameViewController.swift */; };
+		52B049BC2B9912F900893D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B049BA2B9912F900893D8E /* Main.storyboard */; };
+		52B049BE2B9912FB00893D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B049BD2B9912FB00893D8E /* Assets.xcassets */; };
+		52B049C12B9912FB00893D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B049BF2B9912FB00893D8E /* LaunchScreen.storyboard */; };
+		52B049C82B9B23DA00893D8E /* LoadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049C72B9B23DA00893D8E /* LoadVC.swift */; };
+		52B049CA2B9B23ED00893D8E /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049C92B9B23ED00893D8E /* MenuVC.swift */; };
+		52B049CC2B9B23FE00893D8E /* lvlvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049CB2B9B23FE00893D8E /* lvlvc.swift */; };
+		52B049D12B9B3BC100893D8E /* Victoire.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52B049D02B9B3AFE00893D8E /* Victoire.otf */; };
+		52B049D42B9B3C6F00893D8E /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049D32B9B3C6F00893D8E /* GameScene2.swift */; };
+		52B049D62B9B3C8400893D8E /* GameViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049D52B9B3C8400893D8E /* GameViewController2.swift */; };
+		52B049D82B9B406F00893D8E /* GameScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049D72B9B406F00893D8E /* GameScene3.swift */; };
+		52B049DA2B9B408300893D8E /* GameViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049D92B9B408300893D8E /* GameViewController3.swift */; };
+		52B049DC2B9B44EE00893D8E /* OlympicGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049DB2B9B44ED00893D8E /* OlympicGame.swift */; };
+		52B049DE2B9B4FE300893D8E /* ChroniclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B049DD2B9B4FE300893D8E /* ChroniclesVC.swift */; };
+		52B049ED2B9DF0C300893D8E /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 52B049EC2B9DF0C300893D8E /* codemagic.yaml */; };
+		52B049EF2B9DF11800893D8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52B049EE2B9DF11800893D8E /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52B049AD2B9912F900893D8E /* Zeus-Chronicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zeus-Chronicles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B049B02B9912F900893D8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B049B62B9912F900893D8E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		52B049B82B9912F900893D8E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		52B049BB2B9912F900893D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B049BD2B9912FB00893D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B049C02B9912FB00893D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B049C72B9B23DA00893D8E /* LoadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadVC.swift; sourceTree = "<group>"; };
+		52B049C92B9B23ED00893D8E /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		52B049CB2B9B23FE00893D8E /* lvlvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lvlvc.swift; sourceTree = "<group>"; };
+		52B049CD2B9B245600893D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B049D02B9B3AFE00893D8E /* Victoire.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Victoire.otf; sourceTree = "<group>"; };
+		52B049D32B9B3C6F00893D8E /* GameScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
+		52B049D52B9B3C8400893D8E /* GameViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController2.swift; sourceTree = "<group>"; };
+		52B049D72B9B406F00893D8E /* GameScene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene3.swift; sourceTree = "<group>"; };
+		52B049D92B9B408300893D8E /* GameViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController3.swift; sourceTree = "<group>"; };
+		52B049DB2B9B44ED00893D8E /* OlympicGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicGame.swift; sourceTree = "<group>"; };
+		52B049DD2B9B4FE300893D8E /* ChroniclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChroniclesVC.swift; sourceTree = "<group>"; };
+		52B049EB2B9DEEF600893D8E /* Zeus-Chronicles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Zeus-Chronicles.entitlements"; sourceTree = "<group>"; };
+		52B049EC2B9DF0C300893D8E /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		52B049EE2B9DF11800893D8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D7DBE897B11E99845C129BF /* Pods-Zeus-Chronicles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeus-Chronicles.debug.xcconfig"; path = "Target Support Files/Pods-Zeus-Chronicles/Pods-Zeus-Chronicles.debug.xcconfig"; sourceTree = "<group>"; };
+		B68C17FC3F6B34485F92ED5F /* Pods-Zeus-Chronicles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeus-Chronicles.release.xcconfig"; path = "Target Support Files/Pods-Zeus-Chronicles/Pods-Zeus-Chronicles.release.xcconfig"; sourceTree = "<group>"; };
+		BB4F16D233B6AD4D53487BE6 /* Pods_Zeus_Chronicles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeus_Chronicles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B049AA2B9912F900893D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0A18C86BAAB85F0D05FA2A /* Pods_Zeus_Chronicles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B049A42B9912F900893D8E = {
+			isa = PBXGroup;
+			children = (
+				52B049EC2B9DF0C300893D8E /* codemagic.yaml */,
+				52B049AF2B9912F900893D8E /* Zeus-Chronicles */,
+				52B049AE2B9912F900893D8E /* Products */,
+				5E2D30641113932D8158505D /* Pods */,
+				6194B9D70D02BF215DB68D67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52B049AE2B9912F900893D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B049AD2B9912F900893D8E /* Zeus-Chronicles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B049AF2B9912F900893D8E /* Zeus-Chronicles */ = {
+			isa = PBXGroup;
+			children = (
+				52B049EB2B9DEEF600893D8E /* Zeus-Chronicles.entitlements */,
+				52B049D22B9B3C5500893D8E /* Levels */,
+				52B049CF2B9B3AF700893D8E /* Fonts */,
+				52B049B02B9912F900893D8E /* AppDelegate.swift */,
+				52B049BA2B9912F900893D8E /* Main.storyboard */,
+				52B049BD2B9912FB00893D8E /* Assets.xcassets */,
+				52B049BF2B9912FB00893D8E /* LaunchScreen.storyboard */,
+				52B049C72B9B23DA00893D8E /* LoadVC.swift */,
+				52B049C92B9B23ED00893D8E /* MenuVC.swift */,
+				52B049CB2B9B23FE00893D8E /* lvlvc.swift */,
+				52B049CD2B9B245600893D8E /* Info.plist */,
+				52B049EE2B9DF11800893D8E /* GoogleService-Info.plist */,
+				52B049DB2B9B44ED00893D8E /* OlympicGame.swift */,
+				52B049DD2B9B4FE300893D8E /* ChroniclesVC.swift */,
+			);
+			path = "Zeus-Chronicles";
+			sourceTree = "<group>";
+		};
+		52B049CF2B9B3AF700893D8E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52B049D02B9B3AFE00893D8E /* Victoire.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52B049D22B9B3C5500893D8E /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				52B049B62B9912F900893D8E /* GameScene.swift */,
+				52B049B82B9912F900893D8E /* GameViewController.swift */,
+				52B049D32B9B3C6F00893D8E /* GameScene2.swift */,
+				52B049D52B9B3C8400893D8E /* GameViewController2.swift */,
+				52B049D72B9B406F00893D8E /* GameScene3.swift */,
+				52B049D92B9B408300893D8E /* GameViewController3.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		5E2D30641113932D8158505D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D7DBE897B11E99845C129BF /* Pods-Zeus-Chronicles.debug.xcconfig */,
+				B68C17FC3F6B34485F92ED5F /* Pods-Zeus-Chronicles.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6194B9D70D02BF215DB68D67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F16D233B6AD4D53487BE6 /* Pods_Zeus_Chronicles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B049AC2B9912F900893D8E /* Zeus-Chronicles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B049C42B9912FB00893D8E /* Build configuration list for PBXNativeTarget "Zeus-Chronicles" */;
+			buildPhases = (
+				0F236CB567B212260626B758 /* [CP] Check Pods Manifest.lock */,
+				52B049A92B9912F900893D8E /* Sources */,
+				52B049AA2B9912F900893D8E /* Frameworks */,
+				52B049AB2B9912F900893D8E /* Resources */,
+				C6D844E82ED91357BE3023E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zeus-Chronicles";
+			productName = "Zeus-Chronicles";
+			productReference = 52B049AD2B9912F900893D8E /* Zeus-Chronicles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B049A52B9912F900893D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					52B049AC2B9912F900893D8E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 52B049A82B9912F900893D8E /* Build configuration list for PBXProject "Zeus-Chronicles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B049A42B9912F900893D8E;
+			productRefGroup = 52B049AE2B9912F900893D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B049AC2B9912F900893D8E /* Zeus-Chronicles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B049AB2B9912F900893D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B049ED2B9DF0C300893D8E /* codemagic.yaml in Resources */,
+				52B049D12B9B3BC100893D8E /* Victoire.otf in Resources */,
+				52B049BC2B9912F900893D8E /* Main.storyboard in Resources */,
+				52B049BE2B9912FB00893D8E /* Assets.xcassets in Resources */,
+				52B049EF2B9DF11800893D8E /* GoogleService-Info.plist in Resources */,
+				52B049C12B9912FB00893D8E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F236CB567B212260626B758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeus-Chronicles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D844E82ED91357BE3023E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeus-Chronicles/Pods-Zeus-Chronicles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeus-Chronicles/Pods-Zeus-Chronicles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeus-Chronicles/Pods-Zeus-Chronicles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B049A92B9912F900893D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B049DA2B9B408300893D8E /* GameViewController3.swift in Sources */,
+				52B049C82B9B23DA00893D8E /* LoadVC.swift in Sources */,
+				52B049CC2B9B23FE00893D8E /* lvlvc.swift in Sources */,
+				52B049B72B9912F900893D8E /* GameScene.swift in Sources */,
+				52B049D82B9B406F00893D8E /* GameScene3.swift in Sources */,
+				52B049DC2B9B44EE00893D8E /* OlympicGame.swift in Sources */,
+				52B049D42B9B3C6F00893D8E /* GameScene2.swift in Sources */,
+				52B049B92B9912F900893D8E /* GameViewController.swift in Sources */,
+				52B049DE2B9B4FE300893D8E /* ChroniclesVC.swift in Sources */,
+				52B049B12B9912F900893D8E /* AppDelegate.swift in Sources */,
+				52B049CA2B9B23ED00893D8E /* MenuVC.swift in Sources */,
+				52B049D62B9B3C8400893D8E /* GameViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52B049BA2B9912F900893D8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B049BB2B9912F900893D8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B049BF2B9912FB00893D8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B049C02B9912FB00893D8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B049C22B9912FB00893D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B049C32B9912FB00893D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B049C52B9912FB00893D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7DBE897B11E99845C129BF /* Pods-Zeus-Chronicles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Zeus-Chronicles/Zeus-Chronicles.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Zeus-Chronicles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zeus-Chronicles";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zschns.Zeus-Chronicles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52B049C62B9912FB00893D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68C17FC3F6B34485F92ED5F /* Pods-Zeus-Chronicles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Zeus-Chronicles/Zeus-Chronicles.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Zeus-Chronicles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zeus-Chronicles";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zschns.Zeus-Chronicles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B049A82B9912F900893D8E /* Build configuration list for PBXProject "Zeus-Chronicles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B049C22B9912FB00893D8E /* Debug */,
+				52B049C32B9912FB00893D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B049C42B9912FB00893D8E /* Build configuration list for PBXNativeTarget "Zeus-Chronicles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B049C52B9912FB00893D8E /* Debug */,
+				52B049C62B9912FB00893D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B049A52B9912F900893D8E /* Project object */;
+}
